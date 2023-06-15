@@ -11,6 +11,7 @@
 6. Pull Monthly sessions form products, show % sessions clicking through another page and find overall click-through rate.
 
 ## Answers and Insigths to Product performance and metrics are in the Visualization Folder below.
+[Link to Folder](https://github.com/ParyaniSagar/ProductAnalytics-MavenFuzzy/tree/main/Visualization)
 
 ## Data Visualization
 [Link to Tableau Dashboard](https://public.tableau.com/app/profile/sagar.paryani/viz/ProductAnalytics-MavenFuzzy/Dashboard1?publish=yes)
