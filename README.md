@@ -9,3 +9,9 @@
 4. Overall session-to-order conversion trends for the same channels, by quarter. (Can highlight significant periods characterized by major optimizations).
 5. Monthly trends for revenue and margin by product, along with total sales and revenue. Note anything about seasonality.
 6. Pull Monthly sessions form products, show % sessions clicking through another page and find overall click-through rate.
+
+## Answers and Insigths to Product performance and metrics are in the Visualization Folder below.
+
+## Data Visualization
+[Link to Tableau Dashboard](https://public.tableau.com/app/profile/sagar.paryani/viz/ProductAnalytics-MavenFuzzy/Dashboard1?publish=yes)
+

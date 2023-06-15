@@ -1,7 +1,4 @@
--- Launch dates to be kept in mind for verifying addiion on product launch in clickthrough rate.
-select * from products;
-
-drop table ProductSessions;
+-- drop table ProductSessions;
 create temporary table ProductSessions
 select 
     created_at,

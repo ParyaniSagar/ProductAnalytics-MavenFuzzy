@@ -1,8 +1,7 @@
 USE mavenfuzzyfactory;
 
 SELECT 
-	YEAR(ws.created_at) Yr,
-    QUARTER(ws.created_at) as Qtr,
+	CONCAT(CONCAT(year(ws.created_at),'_Q'),Quarter(ws.created_at)) Yr_Qt,
     COUNT(DISTINCT ws.website_session_id) as sessions,
     COUNT(DISTINCT od.order_id) as orders,
     COUNT(DISTINCT od.order_id)/count(DISTINCT ws.website_session_id) as S2OConvRate,
@@ -11,6 +10,6 @@ SELECT
 FROM website_sessions ws
 LEFT JOIN orders od
 	ON od.website_session_id = ws.website_session_id
-GROUP BY 1,2
-ORDER by 1,2
+GROUP BY 1
+ORDER by 1
 ;

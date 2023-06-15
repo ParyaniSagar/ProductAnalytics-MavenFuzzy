@@ -1,5 +1,5 @@
-drop table myt;
--- create temporary table myt
+-- drop table myt;
+create temporary table myt
 select
     ws.created_at,
     ws.website_session_id,
@@ -21,17 +21,16 @@ left join orders od
 
 
 select 
-	year(created_at) as Yr,
-    quarter(created_at) as Qtr,
+	CONCAT(CONCAT(year(created_at),'_Q'),Quarter(created_at)) Yr_Qt,
     count(distinct website_session_id) as sessions,
     count(distinct order_id) as orders,
-    count(distinct GsearchNonBrandOrder)/count(distinct GsearchNonBrandSession) as conv1,
-    count(distinct BsearchNonBrandOrder)/count(distinct BsearchNonBrandSession) as conv2,
-    count(distinct BrandOrder)/count(distinct BrandSession) as conv3,
-	count(distinct OrganicSearchOrder)/count(distinct OrganicSearchSession) as conv4,
-	count(distinct DirectTypeInOrder)/count(distinct DirectTypeInSession) as conv5
+    count(distinct GsearchNonBrandOrder)/count(distinct GsearchNonBrandSession) as GSearchNonBrandConvRt,
+    count(distinct BsearchNonBrandOrder)/count(distinct BsearchNonBrandSession) as BSearchNonBrandConvRt,
+    count(distinct BrandOrder)/count(distinct BrandSession) as BrandConvRt,
+	count(distinct OrganicSearchOrder)/count(distinct OrganicSearchSession) as OrganicSearchConvRt,
+	count(distinct DirectTypeInOrder)/count(distinct DirectTypeInSession) as DirectTypeInConvRt
 from myt
-group by 1,2
+group by 1
 ;
 
 
