@@ -1,7 +1,7 @@
 ## Visualizations
 
 ![DB1](DB1.png)
-General trend of ocerall sessions and order volume from inception has increased. All types of traffic sources have contributed significantly at every quarter.
+General trend of overall sessions and order volume from inception has increased. All types of traffic sources have contributed significantly at every quarter.
 
 ![DB2](DB2.png)
 Overall session to order volume has shown significant increase, but has dropped during 2013_Q4 to 2014_Q3, to inspect this decrease, will perform further analysis and upload the results.
