@@ -1,6 +1,8 @@
 ## MavenFuzzyFactory - Product Analytics
 
-### In this project, my objective is to leverage SQL queries to efficiently gather data and derive valuable insights in response to the inquiries posed by the stakeholders. The following are the key questions that will guide our analysis.
+#### The objective is to leverage SQL queries to efficiently gather data and derive valuable insights in response to the inquiries posed by the stakeholders. The following are the key questions that will guide our analysis.
+
+![ImageLink](Images/DA-Maven.jpg)
 
 ## Questions
 1. What are the overall sessions and order volume, Trended by quarter for the life of the business?
