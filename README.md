@@ -17,4 +17,17 @@
 
 ## Data Visualization
 [Link to Tableau Dashboard](https://public.tableau.com/app/profile/sagar.paryani/viz/ProductAnalytics-MavenFuzzy/Dashboard1?publish=yes)
+[![Tableau Public](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)](https://public.tableau.com/app/profile/sagar.paryani/viz/ProductAnalytics-MavenFuzzy/Dashboard1?publish=yes)
+
+
+
+
+# 🔗 Links
+
+  
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://paryanisagar.github.io/SagarParyani.github.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isagarparyani/)
+
+[![Tableau Public](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)](https://public.tableau.com/app/profile/sagar.paryani)
 
